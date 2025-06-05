@@ -10,7 +10,7 @@ class Main {
    System.out.println("enter the range");
    int b=scan.nextInt();
    
-   for(int i=a; i<=b; i++){
+   for(int i=a; i<b; i++){
        if(i % 2 ==0)
            System.out.println(i);
        }
